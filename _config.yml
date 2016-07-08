@@ -6,7 +6,7 @@ meta_description: "Blogging about tech, iOS, Mac and games"
 aboutPage: true
 
 markdown: kramdown 
-highlighter: rogue
+highlighter: rouge
 
 paginate: 20
 baseurl: /
