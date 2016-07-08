@@ -1,0 +1,43 @@
+gems: ['jekyll-paginate']
+name: Martin Hagerup
+description: Blogging about iOS, SpriteKit, games and development 
+meta_description: "Blogging about tech, iOS, Mac and games"
+
+aboutPage: true
+
+markdown: kramdown 
+highlighter: rogue
+
+paginate: 20
+baseurl: /
+domain_name: 'http://mhgr.no'
+google_analytics: 'UA-46374019-2'
+disqus: false
+# disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://mhgr.no'
+author:         'Martin Hagerup'
+authorTwitter:  'martihag'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
