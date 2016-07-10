@@ -1,7 +1,7 @@
 gems: ['jekyll-paginate']
 name: Martin Hagerup
-description: Blogging about iOS, SpriteKit, games and development 
-meta_description: "Blogging about tech, iOS, Mac and games"
+description: iOS Developer in Trondheim
+meta_description: "Blogging about tech, iOS, programming, and games"
 
 aboutPage: true
 
@@ -12,8 +12,8 @@ paginate: 20
 baseurl: /
 domain_name: 'http://mhgr.no'
 google_analytics: 'UA-46374019-2'
-disqus: false
-# disqus_shortname: 'your-disqus-shortname'
+disqus: true
+disqus_shortname: 'martihag'
 
 # Details for the RSS feed generator
 url:            'http://mhgr.no'
