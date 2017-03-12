@@ -10,7 +10,7 @@ date: 2016-07-10
 
 So you found some awesome graphics you want to use to create your tile maps? But they are all arranged in a tile sheet, and Xcode wants each individual image as a separate resource? 
 
-For this example I will use the phenomenal [Toen's Medieval Strategy v.1.0] grapics pack, wich consisits of 16x16 top-down sprites.
+For this example I will use the phenomenal [Toen's Medieval Strategy v.1.0] graphics pack, which consists of 16x16 top-down sprites.
 
 By the power of imagemagick we can extract these to individual images.
 
@@ -22,7 +22,7 @@ brew install imagemagick
 
 Imagemagick is now available throught the alias **convert**
 
-First we create the target folder, with will be a .atlas file for Xcode to later optimize the resources.
+First we create the target folder, which will be a .atlas file for Xcode to later optimize the resources.
 {% highlight shell %}
 mkdir defaultTiles.atlas
 {% endhighlight %}
@@ -43,8 +43,6 @@ In your Xcode project, just add files and select the .atlas folder you just crea
 Now you can easily create a tile set with these newly imported resources. Simply select the type of tile set you want, and drag the respective images into their place.
 
 **Tip**: Right-click -> New and 8-Way Adjacency Group to get the template for a complete tile set with corners, edges, middlepieces and the whole shebang.
-
-*Due to Apple's policy with beta software, I cannot share screenshots of this process. This post will be updated once NDA is lifted.*
 
 [Toen's Medieval Strategy v.1.0]: https://toen.itch.io/toens-medieval-strategy
 [brew]: http://brew.sh
